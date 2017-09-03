@@ -1,0 +1,31 @@
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: transparemt;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 10px;
+	border-radius: 3px;
+	background: #db4197; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00f0ff, #db4197); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00f0ff, #db4197); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00f0ff, #db4197); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00f0ff, #db4197); /* Standard syntax */
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 14px;
+}

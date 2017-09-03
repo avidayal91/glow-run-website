@@ -1,21 +1,27 @@
 /* Space out content a bit */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 /* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #000;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -38,17 +44,58 @@ body {
   }
 }
 .container-narrow > hr {
-  margin: 30px 0;
+  margin: 15px 0;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 0px solid black;
+  background: black;
 }
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+.jumbotron {
+  padding: 10px 10px;
+  
+}
+.btn {
+  margin: 5px;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-color: white;
+  background: transparent;
+  border-width: 2px;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-weight: 300;
+  /*background: red; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(left, #db4197, #00f0ff); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(right, #db4197, #00f0ff); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(right, #db4197, #00f0ff); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(to right, #db4197, #00f0ff); /* Standard syntax */
+}
+
+.btn:hover{
+  color: black;
+  background: white;
+}
+
+.btn-pressed {
+  color: black;
+  background: white;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  background: -webkit-linear-gradient(right, #00f0ff, #db4197);
+  background: -o-linear-gradient(right, #00f0ff, #db4197); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #00f0ff, #db4197); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #00f0ff, #db4197); /* Standard syntax */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Supporting marketing content */
@@ -70,7 +117,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
