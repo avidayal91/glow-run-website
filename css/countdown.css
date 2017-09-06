@@ -18,10 +18,10 @@
 	padding: 10px;
 	border-radius: 3px;
 	background: #db4197; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#00f0ff, #db4197); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#00f0ff, #db4197); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#00f0ff, #db4197); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#00f0ff, #db4197); /* Standard syntax */
+    background: -webkit-linear-gradient(#00f0ff, #5c3494, #db4197); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00f0ff, #5c3494, #db4197); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00f0ff, #5c3494, #db4197); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00f0ff, #5c3494, #db4197); /* Standard syntax */
 	display: inline-block;
 }
 

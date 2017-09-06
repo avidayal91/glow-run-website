@@ -14,8 +14,8 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Custom page header */
@@ -32,9 +32,9 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  padding-top: 30px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #db4197;
 }
 
 /* Customize container */
@@ -80,31 +80,149 @@ body {
   background: white;
 }
 
-.btn-pressed {
-  color: black;
-  background: white;
-}
 
 h1 {
   font-size: 2em;
   text-align: center;
   letter-spacing: 2px;
   font-weight: 300;
-  background: -webkit-linear-gradient(right, #00f0ff, #db4197);
-  background: -o-linear-gradient(right, #00f0ff, #db4197); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #00f0ff, #db4197); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #00f0ff, #db4197); /* Standard syntax */
+  background: -webkit-linear-gradient(right, #00f0ff, #5c3494, #db4197);
+  background: -o-linear-gradient(right, #00f0ff, #5c3494, #db4197); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #00f0ff, #5c3494, #db4197); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #00f0ff, #5c3494, #db4197); /* Standard syntax */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
+}
+
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: white;
+  
+}
+
+p{
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+
+.ico-color {
+  background: -webkit-linear-gradient(#db4197, #5c3494, #00f0ff);
+  background: -o-linear-gradient(#db4197, #5c3494, #00f0ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#db4197, #5c3494, #00f0ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#db4197, #5c3494, #00f0ff); /* Standard syntax */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.block-info-1 {
+    position: relative;
+}
+
+.block-info-1 i {
+    font-size: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 0;
+    top: 50%;
+}
+.block-info-1 p {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.block-info-2 {
+    position: relative;
+}
+
+.block-info-2 i {
+    font-size: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 0;
+    top: 50%;
+}
+.block-info-2 p {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.block-info-3 {
+    position: relative;
+}
+
+.block-info-3 i {
+    font-size: 32px;
+    position: absolute;
+    padding-left: 5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 0;
+    top: 42%;
+}
+.block-info-3 p {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+p span {
+    display: block;
+    position: relative;
+    top: -2px;
+}
+.event-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 .marketing p + h4 {
-  margin-top: 28px;
+  margin-top: 20px;
 }
+
+h2 + p {
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(right, #db4197, #5c3494, #00f0ff);
+  background: -o-linear-gradient(right, #db4197, #5c3494, #00f0ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #db4197, #5c3494, #00f0ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #db4197, #5c3494, #00f0ff); /* Standard syntax */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -124,3 +242,5 @@ h1 {
     border-bottom: 0;
   }
 }
+
+
